@@ -1,0 +1,45 @@
+body{
+    background-color: #010101;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+form{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+label{
+    display: block;
+}
+label:nth-child(8){
+    margin-bottom: 5px;
+}
+
+input,select{
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 50%;
+}
+input[type="file"]{
+    padding: 10px 0px;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+}
+div input[type="checkbox"]{
+    padding: 0;
+    width: 1%;
+    margin-bottom: 15px;
+}
+
+p{
+    color: tomato;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
